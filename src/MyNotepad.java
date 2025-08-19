@@ -36,7 +36,9 @@ public class MyNotepad extends JFrame {
         fileMenu.addSeparator();
         fileMenu.add(exitFile);
 
-        // Edit menu
+        // Edit menu\
+
+
         JMenu editMenu = new JMenu("Edit");
         JMenuItem cutText = new JMenuItem("Cut");
         JMenuItem copyText = new JMenuItem("Copy");
